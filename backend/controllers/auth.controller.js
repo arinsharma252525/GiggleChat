@@ -38,8 +38,8 @@ export const signup = async (req, res) => {
     res.cookie("token", token, {
       httpOnly: true,
       maxAge: 14 * 24 * 60 * 60 * 1000,
-      sameSite: "Strict",
-      secure: false,
+      sameSite: "none",
+      secure: true,
     });
 
     return res.status(201).json(user);
