@@ -38,7 +38,7 @@ export const signup = async (req, res) => {
     res.cookie("token", token, {
       httpOnly: true,
       maxAge: 14 * 24 * 60 * 60 * 1000,
-      sameSite: "none",
+      sameSite: "None",
       secure: true,
     });
 
