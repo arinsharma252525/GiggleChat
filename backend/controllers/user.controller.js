@@ -23,8 +23,11 @@ export const editProfile = async (req, res) => {
     let { name } = req.body;
     let image;
     if (req.file) {
-      image = await uploadOnCloudinary(req.file.path);
-    }
+    image = await uploadOnCloudinary(req.file.path);
+    if (!image) {
+    return res.status(500).json({ message: "Image upload failed" });
+  }
+}
 
     let updateData = { name };
     if (image) updateData.image = image;
