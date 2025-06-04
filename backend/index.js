@@ -12,7 +12,7 @@ import { app, server } from "./socket/socket.js";
 const port = process.env.PORT || 404;
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://gigglechatapp.onrender.com",
   credentials:true,
 }));
 app.use(express.json());
