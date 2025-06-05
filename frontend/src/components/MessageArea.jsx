@@ -161,9 +161,11 @@ const MessageArea = () => {
 
       {!selectedUser && (
         <div className="w-full h-full flex flex-col justify-center items-center ">
-          <h1 className="text-white font-bold text-[50px]">
-            Welcome to GiggleChat
-          </h1>
+          <img
+            src="/logo.png"
+            alt="GiggleChat Logo"
+            className="w-[180px] h-[180px]"
+          />
           <span className="text-white font-semibold text-[30px]">
             Where every message brings a smile!
           </span>
