@@ -133,7 +133,7 @@ const SideBar = () => {
               <input
                 type="text"
                 placeholder="find user..."
-                className="w-full h-full p-[10px] border-0 text-[17px]"
+                className="w-full h-full p-[10px] border-0 text-[17px] focus:outline-none"
                 onChange={(e) => setinput(e.target.value)}
                 value={input}
               />
