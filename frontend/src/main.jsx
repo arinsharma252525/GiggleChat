@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
-export const serverUrl = "https://gigglechat-jhav.onrender.com";
+export const serverUrl = "https://gigglechat-backend.onrender.com";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
