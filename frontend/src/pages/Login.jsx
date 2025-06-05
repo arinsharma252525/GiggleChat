@@ -45,7 +45,7 @@ const Login = () => {
   return (
     <div className="w-full h-[100vh] bg-[#1e1e2e] flex justify-center items-center">
       <div className="w-full max-w-[400px] h-[70%] bg-[#2a2e39] rounded-lg shadow-gray-400 shadow-lg flex flex-col ">
-        <h1 className="text-gray-500 font-bold text-[30px] flex justify-center items-center mt-8 mb-8">
+        <h1 className="text-gray-500 font-bold text-[30px] flex justify-center items-center mt-8 mb-6">
           Login to GiggleChat
         </h1>
 
