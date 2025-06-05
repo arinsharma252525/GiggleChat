@@ -166,6 +166,9 @@ const MessageArea = () => {
             alt="GiggleChat Logo"
             className="w-[180px] h-[180px]"
           />
+          <h1 className="text-white font-bold text-[50px]">
+            Welcome to GiggleChat
+          </h1>
           <span className="text-white font-semibold text-[30px]">
             Where every message brings a smile!
           </span>
