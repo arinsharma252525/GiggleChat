@@ -6,7 +6,7 @@ let app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://gigglechatapp.onrender.com",
+    origin: "https://gigglechat-00di.onrender.com",
   },
 });
 
